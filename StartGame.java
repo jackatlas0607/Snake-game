@@ -1,5 +1,3 @@
-package com.Takagi.snake;
-
 import javax.swing.*;
 
 //遊戲的主啟動類
