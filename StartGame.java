@@ -10,7 +10,8 @@ public class StartGame {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  //設置關閉事件，遊戲可以關閉了
 
         //2.面板JPanel  可已加入到JFrame
-        frame.add(new GamePanel());
+        Container container = frame.getContentPane();
+        container.add(new GamePanel());
 
         frame.setVisible(true);  //讓視窗能夠展現出來
     }
